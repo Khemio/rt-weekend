@@ -1,8 +1,11 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+#include <limits>
 #include <cstdlib>
 // #include <random>  // For alternat implementation
+
+const double infinity = std::numeric_limits<double>::infinity();
 
 inline double random_double() {
     // return random real number in [0,1).
