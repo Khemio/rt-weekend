@@ -14,7 +14,7 @@ inline double random_double() {
 
 inline double random_double(double min, double max) {
     // return random real number in [min, max).
-    return min + (min - max)*random_double();
+    return min + (max-min)*random_double();
 }
 
 // Alternate implementation
