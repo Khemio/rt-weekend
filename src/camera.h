@@ -71,8 +71,6 @@ class camera {
             v = cross(w,u);
 
             // Calculate vectors cross horizontal and down vertical viewport edges.
-            // auto viewport_u = vec3(viewport_width, 0, 0);
-            // auto viewport_v = vec3(0, -viewport_height, 0);
             auto viewport_u = viewport_width * u; // Vector across viewport horizontal edge
             auto viewport_v = viewport_height * -v; // Vector down viewport vertical edge
 
